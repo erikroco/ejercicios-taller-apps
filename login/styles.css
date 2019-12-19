@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    border: 5px solid red;
+}
+
+main {
+    display: block;
+}
+
+.cabecera-principal {
+    border: 5px solid #ff00d0;
+}
+
+.seccion-principal {
+    border: 5px solid cyan;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.seccion-principal aside {
+    border: 5px solid lime;
+}
+
+.main-principal{
+    border: 5px solid blue;
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+
+.main-principal header{
+    border: 5px solid orange;
+}
+
+.main-principal section{
+    border: 5px solid violet;
+}
